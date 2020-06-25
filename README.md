@@ -6,11 +6,11 @@ Ecommerce项目包括：
 
 |代码库|用途|地址|
 | --- | --- | --- |
-|order-backend|Order服务|[https://github.com/e-commerce-sample/order-backend](https://github.com/e-commerce-sample/order-backend)|
-|product-backend|Product服务|[https://github.com/e-commerce-sample/product-backend](https://github.com/e-commerce-sample/product-backend)|
-|inventory-backend|Inventory服务|[https://github.com/e-commerce-sample/inventory-backend](https://github.com/e-commerce-sample/inventory-backend)|
-|common|共享依赖包|[https://github.com/e-commerce-sample/common](https://github.com/e-commerce-sample/common)|
-|devops|基础设施|[https://github.com/e-commerce-sample/devops](https://github.com/e-commerce-sample/devops)|
+|order-backend|Order服务|[https://github.com/e-commerce-mock/order-backend](https://github.com/e-commerce-mock/order-backend)|
+|product-backend|Product服务|[https://github.com/e-commerce-mock/product-backend](https://github.com/e-commerce-mock/product-backend)|
+|inventory-backend|Inventory服务|[https://github.com/e-commerce-mock/inventory-backend](https://github.com/e-commerce-mock/inventory-backend)|
+|common|共享依赖包|[https://github.com/e-commerce-mock/common](https://github.com/e-commerce-mock/common)|
+|devops|基础设施|[https://github.com/e-commerce-mock/devops](https://github.com/e-commerce-mock/devops)|
 
 # 技术选型
 Spring Boot、Gradle、MySQL、Junit 5、Rest Assured、Docker、RabbitMQ、Ansible
