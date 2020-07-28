@@ -1,21 +1,23 @@
-# 项目简介
-该项目包含Ecommerce项目的基础设施。
+# Project Intro
+This project contains the infrastructure of the Ecommerce system.
 
 
-Ecommerce项目包括：
+Ecommerce Project includes：
 
-|代码库|用途|地址|
+|Repo|Purpose|Link|
 | --- | --- | --- |
-|order-backend|Order服务|[https://github.com/e-commerce-mock/order-backend](https://github.com/e-commerce-mock/order-backend)|
-|product-backend|Product服务|[https://github.com/e-commerce-mock/product-backend](https://github.com/e-commerce-mock/product-backend)|
-|inventory-backend|Inventory服务|[https://github.com/e-commerce-mock/inventory-backend](https://github.com/e-commerce-mock/inventory-backend)|
-|common|共享依赖包|[https://github.com/e-commerce-mock/common](https://github.com/e-commerce-mock/common)|
-|devops|基础设施|[https://github.com/e-commerce-mock/devops](https://github.com/e-commerce-mock/devops)|
+|ecommerce-order-service|Order service|[https://github.com/e-commerce-mock/ecommerce-order-service](https://github.com/e-commerce-mock/ecommerce-order-service)|
+|ecommerce-order-query-service|Order query service|[https://github.com/e-commerce-mock/ecommerce-order-query-service](https://github.com/e-commerce-mock/ecommerce-order-query-service)|
+|ecommerce-product-service|Product service|[https://github.com/e-commerce-mock/ecommerce-product-service](https://github.com/e-commerce-mock/ecommerce-product-service)|
+|ecommerce-inventory-service|Inventory service|[https://github.com/e-commerce-mock/ecommerce-inventory-service](https://github.com/e-commerce-mock/ecommerce-inventory-service)|
+|ecommerce-shared-model|Pure Shared model without Spring context|[https://github.com/e-commerce-mock/ecommerce-shared-model](https://github.com/e-commerce-mock/ecommerce-shared-model)|
+|ecommerce-spring-common|Shared basic Spring configuration|[https://github.com/e-commerce-mock/ecommerce-spring-common](https://github.com/e-commerce-mock/ecommerce-spring-common)|
+|ecommerce-devops|Infrastructure|[https://github.com/e-commerce-mock/ecommerce-devops](https://github.com/e-commerce-mock/ecommerce-devops)|
 
-# 技术选型
+# Tech stacks
 Spring Boot、Gradle、MySQL、Junit 5、Rest Assured、Docker、RabbitMQ、Ansible
 
-# 目录结构
-- local主要包含本地开发过程所需要用到的基础设施，比如RabbitMQ和ELK等，均通过Docker在本地机器启动。
-- remote主要用于生产环境所需的基础设施，主要针对"虚拟机+Docker"的部署场景，本地使用Vagrant虚拟机。
+# Directory Structure
+- `local` mainly includes the infrastructure needed for the local development process, such as RabbitMQ and ELK, which are all started on the local machine through Docker.
+- `remote` is mainly used for the infrastructure required by the production environment, mainly for the deployment scenario of "virtual machine + Docker", using the Vagrant virtual machine locally.
 
